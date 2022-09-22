@@ -1,0 +1,7 @@
+{
+  "name": "pre-proceso-ags",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
