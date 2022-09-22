@@ -9,7 +9,7 @@ export class SetupPage implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
 
 }
