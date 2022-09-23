@@ -78,7 +78,7 @@ export class LoginPage implements OnInit {
           'Usuario No valido',
           1500,
           'warning-outline',
-          'danger');
+          'danger'); 
         resolve(false)
       }
 
@@ -167,5 +167,5 @@ export class LoginPage implements OnInit {
 
   }
 
-
+//actualizado
 }
