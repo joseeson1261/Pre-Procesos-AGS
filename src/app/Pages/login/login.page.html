@@ -1,42 +1,41 @@
-<ion-header>
-  <ion-toolbar>
-    <!-- logo -->
-    <ion-img id="AddImg" slot="start" src='data:image/jpeg;base64,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'></ion-img>
-
-    <!-- Encabezado  -->
-    <ion-label id ="titulo" color="light">Pre-Proceso Agrosmart</ion-label>
-    <!-- <ion-title id ="titulo" style="text-align: center;">Pre-Proceso Agrosmart</ion-title> -->
-
-    <!-- Boton Setup  -->
-      <ion-button id="Addbtnsetup" slot="end" fill="clear" color="light" >
-        <ion-icon name="settings-outline" style="zoom:2.0;" ></ion-icon> 
-      </ion-button>
+<ion-header mode="ios" translucent="true">
+  <ion-toolbar class="ion-text-center" color="success">
+    <ion-avatar slot="start" class="ion-margin-horizontal ion-margin-vertical">
+      <img src="assets\icon\as.jpg">
+    </ion-avatar>
+    <ion-title class="ion-text-center">
+      <h1>Pre-Proceso<br>
+        AgroSmart</h1>
+    </ion-title>
+    <ion-icon (click)="fn_configuraciones()" class="ion-padding" slot="end" name="settings-outline" size="large">
+    </ion-icon>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen] = 'true'>
-  <div id="container">
-    <ion-list>
-      <!-- Imagen de fondo -->
-      
-        <ion-img id="AddImgfondo" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA3lBMVEX///8Nbz4Pk0eFw0B8vysAYycAYCAAZCp6viYAbDgAajUAjDZ8vyyBwTV4vR/s8e3Y6seXtKHD4Kmr1IRSi2kAkEHo8t74+fjK47QackKm0nx8o4oAii/S3tax1433+/Tv9ujG1cvB28iKxUni79UwelCazGfV4Nlmlniy07q0yLuQsJzU6MG12ZN0vBGGqpOPx1Pk7+a83J2MwJtynYOh0HTU5titxLU7nV1grHgAXBaky6682cSPwZ5rsIEAgxpFoWNFg1621rAAUwBjrHp8uI2WymBBgltRimcteU1EzBLUAAAI4UlEQVR4nO2biXKiShSGMQINSKO4xgWBcY27xiUxmSw3M8nN+7/Q7WbfTFIzRk3u+apmBASr/zpbd3PCMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN+I+frHxQ3h4nY9rxx7MHtmfnt5XWpkAjRK1z9/6Mce137IXtxlGplS6SxAiZBpNO7PLtfOXXNzoA7rS0p9qA7M3ikaWS+P8ovxeLw4bxvutfnPK6IupI3YL/Nwd/mTOOvtLfHaW1Ptp3gOIckHIcShx/pGOyGduWZLkDFFFpTJZNLN60zl5qoRtB0V93B5sQ4MWxt2iDQxlYRIlPKdqXkKKnMrRcZpCmZxLZ8zaID9cx2yHvHKh5t16DGzz+1SF5CJ+Be1dxxdDvpC9uS1FmXn6u1VWF7m7kf4MW3JoZ3qRNF2VQeOF6dHE2kUFFteGgtNVx5zUwroI9aLyquoKSTtshkJwZf+VN0MTFPTNNPcqMPlI/ckqsdwV73p6cN57+pFKRMwX+PqIvJUr88nyqMe+TgdJKfRSm+znGqfKSaJvODpO/cu3p6F9N2tIw+ZHS7JOyXE9TfvuWI2u3cNb1Fuya5/+vZbX4X0XUaHNKgmRJ8ocdXhwe3zLgvF1pdWCt7cpHLXKAX1Rf1tI6IE63Gv6mFt8yH0Z9eALS+/MBfB/NL4HdU3SNAnInS8NPkWZexEoOI7aPYhE9D3K2oWsxrXJ/GPg8MO/AO0W+S/keOheGZ4X9wEHDRzFc0vvZd4fpH4+vyQQ/8YbQXPmLwjUFl41yshA95Enqos+bg+NDyF+ViUtqXNmcKk/Qj8EYjAzHV0VaRysfonIfWwI/8gbTd/EuSuf/13IzCDuY08pMUD8FT1uQKtLBP00EANzDxEXC/BQUV+euCBfxxLIDuuyWmh7V1c+x4aj8BBbP4p8v0TrH4uhmLXhyY2vGs3AQ89i+TGSpGLOijqnGT58xhhPKKffi4JhGDmV+TuQaxCSNzmkMP9A1YYF0IXrv0QjHpoggG5/ikWCIt2k/5vtEiOYe1ZzLqxpjnGD8FMpMibsQiUJPPgA/8oC0Wgy6OmNReV6ZV5o9S4YM58gWeR9FHnowbkl0cY+cfQu0SZQpPnitYJGoNzGn2BLcLMQ/iRbPUrGdA2nT3FnmFbYGARaAm8Cz+xidVAVDzZCKS0iEArhTJ6iwrMRgQ2LsP396MpRuRPPIUaCtsOnGYDJT4hiSZ4aPWEa7xN3gid/nJtWLomEhvhnSYz5qFc/4BD3RNOFWzMSTZt0J1Cf/t9Gs+hJ+6hyVgSaUWc31OB5rbjSPw3uo4QpdOepe2EuKdlPIZGmMmnxCqVmBCCnZPOocnMrcRyfe+tAwe8Zass04vtFKIvGIKkFtqpJSyQStzEQ3B4vHH+MbTYN4KvIXxdsa0K/vQ20t5nbS2WGv4sW40Zzq8Sp7eN/T7re7sQ3rtLXTW2QvKT6MmX+UQerFlMxp2mTXcLTH1NgQxDFWZ+OycVcddLTvH1C1YJG7Ju8gQSidVkiVLniEP8Wy7ug0ulZInSy9GGtw/CK4kkiV9cYBRfIvqeAj2JYsq0W0fErxyDyVgSRbHCVDpkWiNWjz2eT4BIpAIJfeQcfDeIREeXuv2qhf4d/DaQb2nBQyCw36QZdSeK8N0VCsInun9lMKwv61PV3ZXvqfXldFNhNuQfo200xpwup/ZaN7uZ0h7f2MJXzxe6z7Pn1djedm0WdGPcnXVpq5994GzHjgrdGbmtmaMnucKIyZMvFzqzaGLctCgY+xeo8Ry/3W55nqvaBYGcE7isRNPmcKsW6XeIlvnh1vqK5yJr3/aEVSxk+90AK5wrgiII8qTdnlgHzjsDWVBkWVFYgb7CyyuLmUK+xDIzU9JpwfqFSZvZO1WpqGWz2d5GQnTXRUVoaPZMVXx95YhCVaryqqaRqxvG5FF/YJrm5kXiQz71jGsG/TTGWKGfOI1nOUM3mriVbpGDcs26nmOxNX59gRUSdXmcTud0vZ2W87ohy2XD4hOc9enJqQSqtXGWQs4G76toK+RM98s+ct+feTfZKKzhHLVahqUwbZ+m09g+kGXimPlJzbkNy22qULDaWc7lFY3Dz8s0XqkbcEUSlDznnJvIsaF9xr8wVeQGYB3Vgz8RHZ7XrLmSnY6OrnwevGHGUsF4Zp20J63PVehhUoVZjndOK5yl0LFbrz9leOSGnxreJ2XlcPRg97wmjJwD1lGo61SJrVC2TWrkzz9XYWX6WEWoWhxEFDK8rdC3Fo/cDfyIwhrGq/FikT/P2cPErNNNVRNy9kHBUrhIW9nkuf1sKWSb/k98pkJR4rhOp7rdvop/qlB/tlMpSaCWV+5QSFuOa4XCCitpKyzZQFPEJyocIGQXQi31xwoJhlEut0dk8FTbDoUtt89jJB9SoYqKztEA/YVCh5ZMC98OhYrstgLOdinUy8bfyUlg6Elw4pBzKlKWiyrkkOk9FOy70M+9RFmwkucOhYJXVJw4jCtcTMLtPPtg6NnQUugbaiNFFXa8KthHwVcy+mTiHq7etqFzRkwdVeg8Mpb9hsF9MUDOFCzbkajCR8l2QJNPRRVOkbND0+O4UGsJi8f2gSFT4+xS+Oy0HBsFHFPYtWJUT8ujvaqjVHiRlIp+sbq1Mg2jbSWpX++ntksxqjDLS6i4XC5fuMiG8EKQ5efVajUTMO2hZpzJSlAh7UgaKZhlW2QCKtheKgQU5hQsz1oCZvcukHZoW1Ptbb/3ZO0Smq90cr1d2plm+BSIuOy/vE20++m8K1vVAtsVDrsppcaG6uGoK1C65bFgVfxm8CfSpNbI9vx271R6mkb/VKfi5pieRmPRnr9VwlNhcquW3J5uz1be5Y27DrMGzr6+uoc8/9aNXxfeTSIm+o4bowxNmGR9SCCfJ9qN/tcUnTU+/xXbLD4G3adZ1o/8l6sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/O/4DFB7K9KkfMQcAAAAASUVORK5CYII='></ion-img>
-      
-      <!-- Ususario -->
-      <ion-item >
-        <ion-label position="floating">Usuario</ion-label>
-        <ion-input type="text" required [(ngModel)]="usuario" (ionChange)="setFilteredItems(usuario)"></ion-input>
-      </ion-item>
-      <!-- Contraseña -->
-      <ion-item >
-        <ion-label position="floating">Contraseña</ion-label>
-        <ion-input type="password" required [(ngModel)]="contra"></ion-input>
-      </ion-item>
 
-      <ion-row>
-        <ion-col>
-          <ion-button id = "btnsubmit" type="submit" color="success" (click)="validarusuario()">Ingresar</ion-button>
-        </ion-col>
-      </ion-row>
-    </ion-list>
-  </div>
-</ion-content>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-img src="assets\icon\agrosmartlogo.jpg"> </ion-img>
+  <form #formulario="ngForm" class="ion-padding">
+    <ion-item class="ion-margin-bottom">
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input class="ion-text-uppercase" type="text" name="user" [(ngModel)]="usuario.user" placeholder="Usuario"
+        required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input type="password" name="password" [(ngModel)]="usuario.password" placeholder="Contraseña" required>
+      </ion-input>
+    </ion-item>
+
+
+    <ion-button disabled={{!formulario.valid}} color="success" class="ion-margin-top" (click)="login()" expand="full"
+      shape="round" style="height: 50px;">
+      <ion-label>Inicial Sección</ion-label>
+      <ion-icon name="log-in-outline"></ion-icon>
+    </ion-button>
+
+
+  </form>
+
