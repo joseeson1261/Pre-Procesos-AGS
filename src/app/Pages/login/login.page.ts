@@ -29,8 +29,6 @@ export class LoginPage implements OnInit {
     public popoverController: PopoverController,
     private modalController: ModalController,
     private configServ: ConfiguracionService,
-
-
   ) { }
 
   ngOnInit() {
@@ -133,8 +131,6 @@ export class LoginPage implements OnInit {
                 'danger');
               resolve(false)
             }
-
-
           }
 
         }, (error) => {
@@ -146,9 +142,7 @@ export class LoginPage implements OnInit {
             'warning-outline',
             'danger');
           resolve(false)
-
         })
-
     })
   }
 
